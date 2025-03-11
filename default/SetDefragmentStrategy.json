@@ -74,6 +74,36 @@
     }, {
       "backPressureDataSizeThreshold" : "1 GB",
       "backPressureObjectThreshold" : 100,
+      "bends" : [ ],
+      "componentType" : "CONNECTION",
+      "destination" : {
+        "comments" : "",
+        "groupId" : "flow-contents-group",
+        "id" : "718245bf-0195-1000-b403-740cdb402d78",
+        "name" : "Funnel",
+        "type" : "FUNNEL"
+      },
+      "flowFileExpiration" : "0 sec",
+      "groupIdentifier" : "flow-contents-group",
+      "identifier" : "718245d7-0195-1000-dd74-0d74aef9d6b1",
+      "labelIndex" : 1,
+      "loadBalanceCompression" : "DO_NOT_COMPRESS",
+      "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
+      "name" : "",
+      "partitioningAttribute" : "",
+      "prioritizers" : [ ],
+      "selectedRelationships" : [ "" ],
+      "source" : {
+        "comments" : "",
+        "groupId" : "flow-contents-group",
+        "id" : "718245b9-0195-1000-ba49-b5a0a51eaa03",
+        "name" : "Funnel",
+        "type" : "FUNNEL"
+      },
+      "zIndex" : 0
+    }, {
+      "backPressureDataSizeThreshold" : "1 GB",
+      "backPressureObjectThreshold" : 100,
       "bends" : [ {
         "x" : 1664.0,
         "y" : -4256.0
@@ -102,36 +132,6 @@
         "id" : "718245b2-0195-1000-276e-40c5e7cbc676",
         "name" : "WriteDefragmentStrategy",
         "type" : "PROCESSOR"
-      },
-      "zIndex" : 0
-    }, {
-      "backPressureDataSizeThreshold" : "1 GB",
-      "backPressureObjectThreshold" : 100,
-      "bends" : [ ],
-      "componentType" : "CONNECTION",
-      "destination" : {
-        "comments" : "",
-        "groupId" : "flow-contents-group",
-        "id" : "718245bf-0195-1000-b403-740cdb402d78",
-        "name" : "Funnel",
-        "type" : "FUNNEL"
-      },
-      "flowFileExpiration" : "0 sec",
-      "groupIdentifier" : "flow-contents-group",
-      "identifier" : "718245d7-0195-1000-dd74-0d74aef9d6b1",
-      "labelIndex" : 1,
-      "loadBalanceCompression" : "DO_NOT_COMPRESS",
-      "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
-      "name" : "",
-      "partitioningAttribute" : "",
-      "prioritizers" : [ ],
-      "selectedRelationships" : [ "" ],
-      "source" : {
-        "comments" : "",
-        "groupId" : "flow-contents-group",
-        "id" : "718245b9-0195-1000-ba49-b5a0a51eaa03",
-        "name" : "Funnel",
-        "type" : "FUNNEL"
       },
       "zIndex" : 0
     }, {
@@ -352,38 +352,6 @@
       "zIndex" : 0
     }, {
       "backPressureDataSizeThreshold" : "1 GB",
-      "backPressureObjectThreshold" : 100,
-      "bends" : [ {
-        "x" : 4756.0,
-        "y" : -2981.0001220703125
-      } ],
-      "componentType" : "CONNECTION",
-      "destination" : {
-        "groupId" : "flow-contents-group",
-        "id" : "718245b8-0195-1000-5c91-282ff23595c6",
-        "name" : "output",
-        "type" : "OUTPUT_PORT"
-      },
-      "flowFileExpiration" : "0 sec",
-      "groupIdentifier" : "flow-contents-group",
-      "identifier" : "718245c2-0195-1000-b551-78a5740209b0",
-      "labelIndex" : 1,
-      "loadBalanceCompression" : "DO_NOT_COMPRESS",
-      "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
-      "name" : "",
-      "partitioningAttribute" : "",
-      "prioritizers" : [ ],
-      "selectedRelationships" : [ "unmatched" ],
-      "source" : {
-        "comments" : "",
-        "groupId" : "flow-contents-group",
-        "id" : "718245b0-0195-1000-3591-ec89b5a39ec5",
-        "name" : "RouteOnFailure",
-        "type" : "PROCESSOR"
-      },
-      "zIndex" : 0
-    }, {
-      "backPressureDataSizeThreshold" : "1 GB",
       "backPressureObjectThreshold" : 10000,
       "bends" : [ {
         "x" : 2872.0,
@@ -411,6 +379,38 @@
         "groupId" : "flow-contents-group",
         "id" : "718245b1-0195-1000-6f16-2fadd01e7e19",
         "name" : "NFixedBatch",
+        "type" : "PROCESSOR"
+      },
+      "zIndex" : 0
+    }, {
+      "backPressureDataSizeThreshold" : "1 GB",
+      "backPressureObjectThreshold" : 100,
+      "bends" : [ {
+        "x" : 4756.0,
+        "y" : -2981.0001220703125
+      } ],
+      "componentType" : "CONNECTION",
+      "destination" : {
+        "groupId" : "flow-contents-group",
+        "id" : "718245b8-0195-1000-5c91-282ff23595c6",
+        "name" : "output",
+        "type" : "OUTPUT_PORT"
+      },
+      "flowFileExpiration" : "0 sec",
+      "groupIdentifier" : "flow-contents-group",
+      "identifier" : "718245c2-0195-1000-b551-78a5740209b0",
+      "labelIndex" : 1,
+      "loadBalanceCompression" : "DO_NOT_COMPRESS",
+      "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
+      "name" : "",
+      "partitioningAttribute" : "",
+      "prioritizers" : [ ],
+      "selectedRelationships" : [ "unmatched" ],
+      "source" : {
+        "comments" : "",
+        "groupId" : "flow-contents-group",
+        "id" : "718245b0-0195-1000-3591-ec89b5a39ec5",
+        "name" : "RouteOnFailure",
         "type" : "PROCESSOR"
       },
       "zIndex" : 0
@@ -578,36 +578,6 @@
       "destination" : {
         "comments" : "",
         "groupId" : "flow-contents-group",
-        "id" : "718245bc-0195-1000-5076-3f89c4f08c1f",
-        "name" : "Funnel",
-        "type" : "FUNNEL"
-      },
-      "flowFileExpiration" : "0 sec",
-      "groupIdentifier" : "flow-contents-group",
-      "identifier" : "718245cd-0195-1000-bc94-1ae4c48166f2",
-      "labelIndex" : 1,
-      "loadBalanceCompression" : "DO_NOT_COMPRESS",
-      "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
-      "name" : "",
-      "partitioningAttribute" : "",
-      "prioritizers" : [ ],
-      "selectedRelationships" : [ "failure" ],
-      "source" : {
-        "comments" : "",
-        "groupId" : "flow-contents-group",
-        "id" : "718245b0-0195-1000-3591-ec89b5a39ec5",
-        "name" : "RouteOnFailure",
-        "type" : "PROCESSOR"
-      },
-      "zIndex" : 0
-    }, {
-      "backPressureDataSizeThreshold" : "1 GB",
-      "backPressureObjectThreshold" : 100,
-      "bends" : [ ],
-      "componentType" : "CONNECTION",
-      "destination" : {
-        "comments" : "",
-        "groupId" : "flow-contents-group",
         "id" : "718245c0-0195-1000-32af-12fba1f44943",
         "name" : "Funnel",
         "type" : "FUNNEL"
@@ -628,6 +598,36 @@
         "id" : "718245be-0195-1000-215e-726b7962aef0",
         "name" : "Funnel",
         "type" : "FUNNEL"
+      },
+      "zIndex" : 0
+    }, {
+      "backPressureDataSizeThreshold" : "1 GB",
+      "backPressureObjectThreshold" : 100,
+      "bends" : [ ],
+      "componentType" : "CONNECTION",
+      "destination" : {
+        "comments" : "",
+        "groupId" : "flow-contents-group",
+        "id" : "718245bc-0195-1000-5076-3f89c4f08c1f",
+        "name" : "Funnel",
+        "type" : "FUNNEL"
+      },
+      "flowFileExpiration" : "0 sec",
+      "groupIdentifier" : "flow-contents-group",
+      "identifier" : "718245cd-0195-1000-bc94-1ae4c48166f2",
+      "labelIndex" : 1,
+      "loadBalanceCompression" : "DO_NOT_COMPRESS",
+      "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
+      "name" : "",
+      "partitioningAttribute" : "",
+      "prioritizers" : [ ],
+      "selectedRelationships" : [ "failure" ],
+      "source" : {
+        "comments" : "",
+        "groupId" : "flow-contents-group",
+        "id" : "718245b0-0195-1000-3591-ec89b5a39ec5",
+        "name" : "RouteOnFailure",
+        "type" : "PROCESSOR"
       },
       "zIndex" : 0
     }, {
@@ -674,20 +674,20 @@
       },
       "flowFileExpiration" : "0 sec",
       "groupIdentifier" : "flow-contents-group",
-      "identifier" : "718245c9-0195-1000-78ce-d8efceafb9d3",
+      "identifier" : "718245d3-0195-1000-98a5-4f8b4d172fdf",
       "labelIndex" : 1,
       "loadBalanceCompression" : "DO_NOT_COMPRESS",
       "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
       "name" : "",
       "partitioningAttribute" : "",
       "prioritizers" : [ ],
-      "selectedRelationships" : [ "" ],
+      "selectedRelationships" : [ "failure" ],
       "source" : {
         "comments" : "",
         "groupId" : "flow-contents-group",
-        "id" : "718245ba-0195-1000-bacc-e623e945b6ef",
-        "name" : "Funnel",
-        "type" : "FUNNEL"
+        "id" : "718245b2-0195-1000-276e-40c5e7cbc676",
+        "name" : "WriteDefragmentStrategy",
+        "type" : "PROCESSOR"
       },
       "zIndex" : 0
     }, {
@@ -704,20 +704,20 @@
       },
       "flowFileExpiration" : "0 sec",
       "groupIdentifier" : "flow-contents-group",
-      "identifier" : "718245d3-0195-1000-98a5-4f8b4d172fdf",
+      "identifier" : "718245c9-0195-1000-78ce-d8efceafb9d3",
       "labelIndex" : 1,
       "loadBalanceCompression" : "DO_NOT_COMPRESS",
       "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
       "name" : "",
       "partitioningAttribute" : "",
       "prioritizers" : [ ],
-      "selectedRelationships" : [ "failure" ],
+      "selectedRelationships" : [ "" ],
       "source" : {
         "comments" : "",
         "groupId" : "flow-contents-group",
-        "id" : "718245b2-0195-1000-276e-40c5e7cbc676",
-        "name" : "WriteDefragmentStrategy",
-        "type" : "PROCESSOR"
+        "id" : "718245ba-0195-1000-bacc-e623e945b6ef",
+        "name" : "Funnel",
+        "type" : "FUNNEL"
       },
       "zIndex" : 0
     }, {
@@ -878,7 +878,7 @@
       "scheduledState" : "ENABLED",
       "type" : "OUTPUT_PORT"
     } ],
-    "parameterContextName" : "NiFi Dashboard / Set Defragment Stategy Metadata",
+    "parameterContextName" : "NiFi Dashboard / Set Defragment Stategy General Embeddings",
     "position" : {
       "x" : 0.0,
       "y" : 0.0
@@ -902,7 +902,7 @@
       "maxConcurrentTasks" : 1,
       "name" : "RunApp",
       "outputPorts" : [ ],
-      "parameterContextName" : "NiFi Dashboard / Event Hydrate 0",
+      "parameterContextName" : "NiFi Dashboard / Set Defragment Stategy General Embeddings",
       "position" : {
         "x" : 2680.0,
         "y" : -3688.0
@@ -916,10 +916,71 @@
         "branch" : "dev",
         "bucketId" : "default",
         "flowId" : "RunApp",
-        "version" : "d6071cb19438d25ea6b8ec38db1c097cbbc6842d"
+        "version" : "7ff7481cbb460823191f494fca71cf07cf3becef"
       }
     } ],
     "processors" : [ {
+      "autoTerminatedRelationships" : [ "original" ],
+      "backoffMechanism" : "PENALIZE_FLOWFILE",
+      "bulletinLevel" : "WARN",
+      "bundle" : {
+        "artifact" : "nifi-standard-nar",
+        "group" : "org.apache.nifi",
+        "version" : "2.2.0"
+      },
+      "comments" : "",
+      "componentType" : "PROCESSOR",
+      "concurrentlySchedulableTaskCount" : 1,
+      "executionNode" : "ALL",
+      "groupIdentifier" : "flow-contents-group",
+      "identifier" : "718245af-0195-1000-4722-14c5eb9cdb14",
+      "maxBackoffPeriod" : "10 mins",
+      "name" : "Unbatch",
+      "penaltyDuration" : "30 sec",
+      "position" : {
+        "x" : 3328.0,
+        "y" : -3320.0
+      },
+      "properties" : {
+        "Max String Length" : "10 GB",
+        "Null Value Representation" : "empty string",
+        "JsonPath Expression" : "$.*"
+      },
+      "propertyDescriptors" : {
+        "Max String Length" : {
+          "displayName" : "Max String Length",
+          "dynamic" : false,
+          "identifiesControllerService" : false,
+          "name" : "Max String Length",
+          "sensitive" : false
+        },
+        "Null Value Representation" : {
+          "displayName" : "Null Value Representation",
+          "dynamic" : false,
+          "identifiesControllerService" : false,
+          "name" : "Null Value Representation",
+          "sensitive" : false
+        },
+        "JsonPath Expression" : {
+          "displayName" : "JsonPath Expression",
+          "dynamic" : false,
+          "identifiesControllerService" : false,
+          "name" : "JsonPath Expression",
+          "sensitive" : false
+        }
+      },
+      "retriedRelationships" : [ ],
+      "retryCount" : 10,
+      "runDurationMillis" : 0,
+      "scheduledState" : "ENABLED",
+      "schedulingPeriod" : "0 sec",
+      "schedulingStrategy" : "TIMER_DRIVEN",
+      "style" : {
+        "background-color" : "#ff5e5e"
+      },
+      "type" : "org.apache.nifi.processors.standard.SplitJson",
+      "yieldDuration" : "1 sec"
+    }, {
       "autoTerminatedRelationships" : [ ],
       "backoffMechanism" : "PENALIZE_FLOWFILE",
       "bulletinLevel" : "WARN",
@@ -1013,7 +1074,7 @@
       "type" : "org.apache.nifi.processors.standard.EvaluateJsonPath",
       "yieldDuration" : "1 sec"
     }, {
-      "autoTerminatedRelationships" : [ "original" ],
+      "autoTerminatedRelationships" : [ ],
       "backoffMechanism" : "PENALIZE_FLOWFILE",
       "bulletinLevel" : "WARN",
       "bundle" : {
@@ -1026,52 +1087,44 @@
       "concurrentlySchedulableTaskCount" : 1,
       "executionNode" : "ALL",
       "groupIdentifier" : "flow-contents-group",
-      "identifier" : "718245af-0195-1000-4722-14c5eb9cdb14",
+      "identifier" : "718245b0-0195-1000-3591-ec89b5a39ec5",
       "maxBackoffPeriod" : "10 mins",
-      "name" : "Unbatch",
+      "name" : "RouteOnFailure",
       "penaltyDuration" : "30 sec",
       "position" : {
-        "x" : 3328.0,
-        "y" : -3320.0
+        "x" : 4176.0,
+        "y" : -3040.0
       },
       "properties" : {
-        "Max String Length" : "10 GB",
-        "Null Value Representation" : "empty string",
-        "JsonPath Expression" : "$.*"
+        "Routing Strategy" : "Route to Property name",
+        "failure" : "${raised_exc:equals(\"true\")}"
       },
       "propertyDescriptors" : {
-        "Max String Length" : {
-          "displayName" : "Max String Length",
+        "Routing Strategy" : {
+          "displayName" : "Routing Strategy",
           "dynamic" : false,
           "identifiesControllerService" : false,
-          "name" : "Max String Length",
+          "name" : "Routing Strategy",
           "sensitive" : false
         },
-        "Null Value Representation" : {
-          "displayName" : "Null Value Representation",
-          "dynamic" : false,
+        "failure" : {
+          "displayName" : "failure",
+          "dynamic" : true,
           "identifiesControllerService" : false,
-          "name" : "Null Value Representation",
-          "sensitive" : false
-        },
-        "JsonPath Expression" : {
-          "displayName" : "JsonPath Expression",
-          "dynamic" : false,
-          "identifiesControllerService" : false,
-          "name" : "JsonPath Expression",
+          "name" : "failure",
           "sensitive" : false
         }
       },
       "retriedRelationships" : [ ],
       "retryCount" : 10,
-      "runDurationMillis" : 0,
+      "runDurationMillis" : 25,
       "scheduledState" : "ENABLED",
       "schedulingPeriod" : "0 sec",
       "schedulingStrategy" : "TIMER_DRIVEN",
       "style" : {
-        "background-color" : "#ff5e5e"
+        "background-color" : "#82ff84"
       },
-      "type" : "org.apache.nifi.processors.standard.SplitJson",
+      "type" : "org.apache.nifi.processors.standard.RouteOnAttribute",
       "yieldDuration" : "1 sec"
     }, {
       "autoTerminatedRelationships" : [ ],
@@ -1147,59 +1200,6 @@
         "background-color" : "#f2f78c"
       },
       "type" : "org.apache.nifi.processors.script.InvokeScriptedProcessor",
-      "yieldDuration" : "1 sec"
-    }, {
-      "autoTerminatedRelationships" : [ ],
-      "backoffMechanism" : "PENALIZE_FLOWFILE",
-      "bulletinLevel" : "WARN",
-      "bundle" : {
-        "artifact" : "nifi-standard-nar",
-        "group" : "org.apache.nifi",
-        "version" : "2.2.0"
-      },
-      "comments" : "",
-      "componentType" : "PROCESSOR",
-      "concurrentlySchedulableTaskCount" : 1,
-      "executionNode" : "ALL",
-      "groupIdentifier" : "flow-contents-group",
-      "identifier" : "718245b0-0195-1000-3591-ec89b5a39ec5",
-      "maxBackoffPeriod" : "10 mins",
-      "name" : "RouteOnFailure",
-      "penaltyDuration" : "30 sec",
-      "position" : {
-        "x" : 4176.0,
-        "y" : -3040.0
-      },
-      "properties" : {
-        "Routing Strategy" : "Route to Property name",
-        "failure" : "${raised_exc:equals(\"true\")}"
-      },
-      "propertyDescriptors" : {
-        "Routing Strategy" : {
-          "displayName" : "Routing Strategy",
-          "dynamic" : false,
-          "identifiesControllerService" : false,
-          "name" : "Routing Strategy",
-          "sensitive" : false
-        },
-        "failure" : {
-          "displayName" : "failure",
-          "dynamic" : true,
-          "identifiesControllerService" : false,
-          "name" : "failure",
-          "sensitive" : false
-        }
-      },
-      "retriedRelationships" : [ ],
-      "retryCount" : 10,
-      "runDurationMillis" : 25,
-      "scheduledState" : "ENABLED",
-      "schedulingPeriod" : "0 sec",
-      "schedulingStrategy" : "TIMER_DRIVEN",
-      "style" : {
-        "background-color" : "#82ff84"
-      },
-      "type" : "org.apache.nifi.processors.standard.RouteOnAttribute",
       "yieldDuration" : "1 sec"
     }, {
       "autoTerminatedRelationships" : [ ],
@@ -1589,17 +1589,29 @@
   "flowEncodingVersion" : "1.0",
   "latest" : false,
   "parameterContexts" : {
-    "NiFi Dashboard / Set Defragment Stategy Metadata" : {
+    "NiFi Dashboard / Set Defragment Stategy General Embeddings" : {
       "componentType" : "PARAMETER_CONTEXT",
-      "inheritedParameterContexts" : [ ],
-      "name" : "NiFi Dashboard / Set Defragment Stategy Metadata",
+      "inheritedParameterContexts" : [ "NiFi Dashboard / Set Defragment Stategy Parent Context" ],
+      "name" : "NiFi Dashboard / Set Defragment Stategy General Embeddings",
       "parameters" : [ {
         "description" : "",
-        "name" : "app_alias",
+        "name" : "processor_suffix",
         "provided" : false,
         "sensitive" : false,
-        "value" : "nifi-dashboard"
+        "value" : "general_embeddings"
       }, {
+        "description" : "",
+        "name" : "defragment_strategy",
+        "provided" : false,
+        "sensitive" : false,
+        "value" : "[\n  {\n    \"operation\": \"default\",\n    \"spec\": {\n      \"request\": {\n        \"config\": {\n          \"processor\": {\n            \"nifi_dashboard\": {\n              \"set_defragment_strategy\": {\n                \"general_embeddings\": {\n                  \"defragment_strategy\": {\n                    \"fields\": {\n                      \"image:annotations\": {\n                        \"op\": \"LSTCONCAT\"\n                      }\n                    }\n                  }\n                }\n              }\n            }\n          }\n        }\n      }\n    }\n  },\n  {\n    \"operation\": \"modify-overwrite-beta\",\n    \"spec\": {\n      \"request\": {\n        \"config\": {\n          \"processor\": {\n            \"nifi_dashboard\": {\n              \"set_defragment_strategy\": {\n                \"general_embeddings\": {\n                  \"defragment_strategy\": {\n                    \"fields\": {\n                      \"image:annotations\": {\n                        \"op\": \"LSTCONCAT\"\n                      }\n                    }\n                  }\n                }\n              }\n            }\n          }\n        }\n      }\n    }\n  }\n]"
+      } ]
+    },
+    "NiFi Dashboard / Set Defragment Stategy Parent Context" : {
+      "componentType" : "PARAMETER_CONTEXT",
+      "inheritedParameterContexts" : [ ],
+      "name" : "NiFi Dashboard / Set Defragment Stategy Parent Context",
+      "parameters" : [ {
         "description" : "",
         "name" : "batch_size",
         "provided" : false,
@@ -1607,10 +1619,15 @@
         "value" : "1024"
       }, {
         "description" : "",
-        "name" : "processor_suffix",
+        "name" : "app_alias",
         "provided" : false,
         "sensitive" : false,
-        "value" : "metadata"
+        "value" : "nifi-dashboard"
+      }, {
+        "description" : "",
+        "name" : "processor_suffix",
+        "provided" : false,
+        "sensitive" : false
       }, {
         "description" : "",
         "name" : "endpoint",
@@ -1621,8 +1638,7 @@
         "description" : "",
         "name" : "defragment_strategy",
         "provided" : false,
-        "sensitive" : false,
-        "value" : "[\n  {\n    \"operation\": \"default\",\n    \"spec\": {\n      \"request\": {\n        \"config\": {\n          \"processor\": {\n            \"nifi_dashboard\": {\n              \"set_defragment_strategy\": {\n                \"metadata\": {\n                  \"defragment_strategy\": {\n                    \"fields\": {\n                      \"extract:metadata\": {\n                        \"op\": \"FIRST\"\n                      }\n                    }\n                  }\n                }\n              }\n            }\n          }\n        }\n      }\n    }\n  },\n  {\n    \"operation\": \"modify-overwrite-beta\",\n    \"spec\": {\n      \"request\": {\n        \"config\": {\n          \"processor\": {\n            \"nifi_dashboard\": {\n              \"set_defragment_strategy\": {\n                \"metadata\": {\n                  \"defragment_strategy\": {\n                    \"fields\": {\n                      \"extract:metadata\": {\n                        \"op\": \"FIRST\"\n                      }\n                    }\n                  }\n                }\n              }\n            }\n          }\n        }\n      }\n    }\n  }\n]"
+        "sensitive" : false
       } ]
     }
   },
