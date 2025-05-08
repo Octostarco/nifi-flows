@@ -40936,6 +40936,36 @@
           "zIndex" : 0
         }, {
           "backPressureDataSizeThreshold" : "1 GB",
+          "backPressureObjectThreshold" : 10000,
+          "bends" : [ ],
+          "componentType" : "CONNECTION",
+          "destination" : {
+            "comments" : "",
+            "groupId" : "933674d7-bc4e-3437-81c0-45d568a2d03e",
+            "id" : "b0073c80-0196-1000-55a2-28797fe0c1a6",
+            "name" : "Funnel",
+            "type" : "FUNNEL"
+          },
+          "flowFileExpiration" : "0 sec",
+          "groupIdentifier" : "933674d7-bc4e-3437-81c0-45d568a2d03e",
+          "identifier" : "a13ae56c-94fe-3b02-97cc-1b1d443fb1ea",
+          "labelIndex" : 0,
+          "loadBalanceCompression" : "DO_NOT_COMPRESS",
+          "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
+          "name" : "",
+          "partitioningAttribute" : "",
+          "prioritizers" : [ ],
+          "selectedRelationships" : [ "failure" ],
+          "source" : {
+            "comments" : "",
+            "groupId" : "933674d7-bc4e-3437-81c0-45d568a2d03e",
+            "id" : "b0069d8b-0196-1000-8208-d9c749763f15",
+            "name" : "RouteOnFailure",
+            "type" : "PROCESSOR"
+          },
+          "zIndex" : 6
+        }, {
+          "backPressureDataSizeThreshold" : "1 GB",
           "backPressureObjectThreshold" : 100,
           "bends" : [ {
             "x" : 3854.4500203075604,
@@ -41056,6 +41086,36 @@
             "type" : "PROCESSOR"
           },
           "zIndex" : 0
+        }, {
+          "backPressureDataSizeThreshold" : "1 GB",
+          "backPressureObjectThreshold" : 10000,
+          "bends" : [ ],
+          "componentType" : "CONNECTION",
+          "destination" : {
+            "comments" : "",
+            "groupId" : "933674d7-bc4e-3437-81c0-45d568a2d03e",
+            "id" : "c858bc87-0195-1000-6ad5-63b4f2a22aa2",
+            "name" : "Funnel",
+            "type" : "FUNNEL"
+          },
+          "flowFileExpiration" : "0 sec",
+          "groupIdentifier" : "933674d7-bc4e-3437-81c0-45d568a2d03e",
+          "identifier" : "9267e904-0286-39e7-8895-6a628cdb5483",
+          "labelIndex" : 0,
+          "loadBalanceCompression" : "DO_NOT_COMPRESS",
+          "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
+          "name" : "",
+          "partitioningAttribute" : "",
+          "prioritizers" : [ ],
+          "selectedRelationships" : [ "" ],
+          "source" : {
+            "comments" : "",
+            "groupId" : "933674d7-bc4e-3437-81c0-45d568a2d03e",
+            "id" : "b0073c80-0196-1000-55a2-28797fe0c1a6",
+            "name" : "Funnel",
+            "type" : "FUNNEL"
+          },
+          "zIndex" : 5
         }, {
           "backPressureDataSizeThreshold" : "1 GB",
           "backPressureObjectThreshold" : 100,
@@ -41203,10 +41263,11 @@
           } ],
           "componentType" : "CONNECTION",
           "destination" : {
+            "comments" : "",
             "groupId" : "933674d7-bc4e-3437-81c0-45d568a2d03e",
-            "id" : "f158c3b8-756d-3467-8b8a-b40d2eb9a230",
-            "name" : "output",
-            "type" : "OUTPUT_PORT"
+            "id" : "b0069d8b-0196-1000-8208-d9c749763f15",
+            "name" : "RouteOnFailure",
+            "type" : "PROCESSOR"
           },
           "flowFileExpiration" : "0 sec",
           "groupIdentifier" : "933674d7-bc4e-3437-81c0-45d568a2d03e",
@@ -41453,6 +41514,38 @@
           "zIndex" : 0
         }, {
           "backPressureDataSizeThreshold" : "1 GB",
+          "backPressureObjectThreshold" : 10000,
+          "bends" : [ {
+            "x" : 5944.0,
+            "y" : -2240.0
+          } ],
+          "componentType" : "CONNECTION",
+          "destination" : {
+            "groupId" : "933674d7-bc4e-3437-81c0-45d568a2d03e",
+            "id" : "f158c3b8-756d-3467-8b8a-b40d2eb9a230",
+            "name" : "output",
+            "type" : "OUTPUT_PORT"
+          },
+          "flowFileExpiration" : "0 sec",
+          "groupIdentifier" : "933674d7-bc4e-3437-81c0-45d568a2d03e",
+          "identifier" : "3eb8bbb8-09ea-39e0-a929-0857ed1d6204",
+          "labelIndex" : 0,
+          "loadBalanceCompression" : "DO_NOT_COMPRESS",
+          "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
+          "name" : "",
+          "partitioningAttribute" : "",
+          "prioritizers" : [ ],
+          "selectedRelationships" : [ "unmatched" ],
+          "source" : {
+            "comments" : "",
+            "groupId" : "933674d7-bc4e-3437-81c0-45d568a2d03e",
+            "id" : "b0069d8b-0196-1000-8208-d9c749763f15",
+            "name" : "RouteOnFailure",
+            "type" : "PROCESSOR"
+          },
+          "zIndex" : 4
+        }, {
+          "backPressureDataSizeThreshold" : "1 GB",
           "backPressureObjectThreshold" : 100,
           "bends" : [ ],
           "componentType" : "CONNECTION",
@@ -41636,6 +41729,14 @@
         }, {
           "componentType" : "FUNNEL",
           "groupIdentifier" : "933674d7-bc4e-3437-81c0-45d568a2d03e",
+          "identifier" : "b0073c80-0196-1000-55a2-28797fe0c1a6",
+          "position" : {
+            "x" : 528.0,
+            "y" : -2272.0
+          }
+        }, {
+          "componentType" : "FUNNEL",
+          "groupIdentifier" : "933674d7-bc4e-3437-81c0-45d568a2d03e",
           "identifier" : "c858bc8b-0195-1000-eaa3-4b49f12ba059",
           "position" : {
             "x" : 528.0,
@@ -41742,8 +41843,8 @@
           "name" : "output",
           "portFunction" : "STANDARD",
           "position" : {
-            "x" : 5384.0,
-            "y" : -2376.0
+            "x" : 5824.0,
+            "y" : -2120.0
           },
           "scheduledState" : "ENABLED",
           "type" : "OUTPUT_PORT"
@@ -42227,6 +42328,59 @@
             "background-color" : "#f2f78c"
           },
           "type" : "OSSetDefragmentStrategy",
+          "yieldDuration" : "1 sec"
+        }, {
+          "autoTerminatedRelationships" : [ ],
+          "backoffMechanism" : "PENALIZE_FLOWFILE",
+          "bulletinLevel" : "WARN",
+          "bundle" : {
+            "artifact" : "nifi-standard-nar",
+            "group" : "org.apache.nifi",
+            "version" : "2.4.0"
+          },
+          "comments" : "",
+          "componentType" : "PROCESSOR",
+          "concurrentlySchedulableTaskCount" : 1,
+          "executionNode" : "ALL",
+          "groupIdentifier" : "933674d7-bc4e-3437-81c0-45d568a2d03e",
+          "identifier" : "b0069d8b-0196-1000-8208-d9c749763f15",
+          "maxBackoffPeriod" : "10 mins",
+          "name" : "RouteOnFailure",
+          "penaltyDuration" : "30 sec",
+          "position" : {
+            "x" : 5328.0,
+            "y" : -2304.0
+          },
+          "properties" : {
+            "Routing Strategy" : "Route to Property name",
+            "failure" : "${raised_exc:equals(\"true\")}"
+          },
+          "propertyDescriptors" : {
+            "Routing Strategy" : {
+              "displayName" : "Routing Strategy",
+              "dynamic" : false,
+              "identifiesControllerService" : false,
+              "name" : "Routing Strategy",
+              "sensitive" : false
+            },
+            "failure" : {
+              "displayName" : "failure",
+              "dynamic" : true,
+              "identifiesControllerService" : false,
+              "name" : "failure",
+              "sensitive" : false
+            }
+          },
+          "retriedRelationships" : [ ],
+          "retryCount" : 10,
+          "runDurationMillis" : 25,
+          "scheduledState" : "ENABLED",
+          "schedulingPeriod" : "0 sec",
+          "schedulingStrategy" : "TIMER_DRIVEN",
+          "style" : {
+            "background-color" : "#82ff84"
+          },
+          "type" : "org.apache.nifi.processors.standard.RouteOnAttribute",
           "yieldDuration" : "1 sec"
         }, {
           "autoTerminatedRelationships" : [ ],
