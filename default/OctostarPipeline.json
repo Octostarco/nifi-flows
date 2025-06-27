@@ -92,7 +92,7 @@
       "name" : "",
       "partitioningAttribute" : "",
       "prioritizers" : [ ],
-      "selectedRelationships" : [ "failure", "success" ],
+      "selectedRelationships" : [ "success", "failure" ],
       "source" : {
         "comments" : "",
         "groupId" : "flow-contents-group",
@@ -2790,18 +2790,18 @@
         }, {
           "componentType" : "FUNNEL",
           "groupIdentifier" : "a2b5640d-3142-3458-b32b-000f62d661aa",
-          "identifier" : "c8c4492e-0195-1000-f0b2-3340487666c1",
-          "position" : {
-            "x" : 1112.0,
-            "y" : -2280.0
-          }
-        }, {
-          "componentType" : "FUNNEL",
-          "groupIdentifier" : "a2b5640d-3142-3458-b32b-000f62d661aa",
           "identifier" : "c8c44927-0195-1000-9427-f4f682b8d1ae",
           "position" : {
             "x" : 1114.0266888369893,
             "y" : -3246.2622862603866
+          }
+        }, {
+          "componentType" : "FUNNEL",
+          "groupIdentifier" : "a2b5640d-3142-3458-b32b-000f62d661aa",
+          "identifier" : "c8c4492e-0195-1000-f0b2-3340487666c1",
+          "position" : {
+            "x" : 1112.0,
+            "y" : -2280.0
           }
         }, {
           "componentType" : "FUNNEL",
@@ -3480,7 +3480,7 @@
               "name" : "Footer File",
               "resourceDefinition" : {
                 "cardinality" : "SINGLE",
-                "resourceTypes" : [ "FILE", "TEXT" ]
+                "resourceTypes" : [ "TEXT", "FILE" ]
               },
               "sensitive" : false
             },
@@ -3498,7 +3498,7 @@
               "name" : "Demarcator File",
               "resourceDefinition" : {
                 "cardinality" : "SINGLE",
-                "resourceTypes" : [ "FILE", "TEXT" ]
+                "resourceTypes" : [ "TEXT", "FILE" ]
               },
               "sensitive" : false
             },
@@ -3523,7 +3523,7 @@
               "name" : "Header File",
               "resourceDefinition" : {
                 "cardinality" : "SINGLE",
-                "resourceTypes" : [ "FILE", "TEXT" ]
+                "resourceTypes" : [ "TEXT", "FILE" ]
               },
               "sensitive" : false
             },
@@ -4801,18 +4801,18 @@
       }, {
         "componentType" : "FUNNEL",
         "groupIdentifier" : "72ad331d-af24-3aaa-8f19-39f82c7f1766",
-        "identifier" : "9b634878-e4ca-3233-869b-c9255ad5ead2",
-        "position" : {
-          "x" : -3760.0,
-          "y" : -6184.0
-        }
-      }, {
-        "componentType" : "FUNNEL",
-        "groupIdentifier" : "72ad331d-af24-3aaa-8f19-39f82c7f1766",
         "identifier" : "ec684295-0498-3337-9669-74c8d65e7287",
         "position" : {
           "x" : -3760.0,
           "y" : -6328.0
+        }
+      }, {
+        "componentType" : "FUNNEL",
+        "groupIdentifier" : "72ad331d-af24-3aaa-8f19-39f82c7f1766",
+        "identifier" : "9b634878-e4ca-3233-869b-c9255ad5ead2",
+        "position" : {
+          "x" : -3760.0,
+          "y" : -6184.0
         }
       }, {
         "componentType" : "FUNNEL",
@@ -5190,7 +5190,7 @@
             "name" : "Jolt Specification",
             "resourceDefinition" : {
               "cardinality" : "SINGLE",
-              "resourceTypes" : [ "FILE", "TEXT" ]
+              "resourceTypes" : [ "TEXT", "FILE" ]
             },
             "sensitive" : false
           }
@@ -7049,7 +7049,7 @@
             "name" : "Footer File",
             "resourceDefinition" : {
               "cardinality" : "SINGLE",
-              "resourceTypes" : [ "FILE", "TEXT" ]
+              "resourceTypes" : [ "TEXT", "FILE" ]
             },
             "sensitive" : false
           },
@@ -7067,7 +7067,7 @@
             "name" : "Demarcator File",
             "resourceDefinition" : {
               "cardinality" : "SINGLE",
-              "resourceTypes" : [ "FILE", "TEXT" ]
+              "resourceTypes" : [ "TEXT", "FILE" ]
             },
             "sensitive" : false
           },
@@ -7092,7 +7092,7 @@
             "name" : "Header File",
             "resourceDefinition" : {
               "cardinality" : "SINGLE",
-              "resourceTypes" : [ "FILE", "TEXT" ]
+              "resourceTypes" : [ "TEXT", "FILE" ]
             },
             "sensitive" : false
           },
@@ -8608,18 +8608,18 @@
       }, {
         "componentType" : "FUNNEL",
         "groupIdentifier" : "babc877b-f3ef-3a98-8b4a-4e27c3cfa694",
-        "identifier" : "c8c59767-0195-1000-d3ff-99495bea1277",
-        "position" : {
-          "x" : 1008.0,
-          "y" : -2424.0
-        }
-      }, {
-        "componentType" : "FUNNEL",
-        "groupIdentifier" : "babc877b-f3ef-3a98-8b4a-4e27c3cfa694",
         "identifier" : "c8c5976c-0195-1000-d11b-4170155bc586",
         "position" : {
           "x" : 1010.098261043036,
           "y" : -3583.752278337456
+        }
+      }, {
+        "componentType" : "FUNNEL",
+        "groupIdentifier" : "babc877b-f3ef-3a98-8b4a-4e27c3cfa694",
+        "identifier" : "c8c59767-0195-1000-d3ff-99495bea1277",
+        "position" : {
+          "x" : 1008.0,
+          "y" : -2424.0
         }
       } ],
       "groupIdentifier" : "flow-contents-group",
@@ -8811,7 +8811,7 @@
             "name" : "Footer File",
             "resourceDefinition" : {
               "cardinality" : "SINGLE",
-              "resourceTypes" : [ "FILE", "TEXT" ]
+              "resourceTypes" : [ "TEXT", "FILE" ]
             },
             "sensitive" : false
           },
@@ -8829,7 +8829,7 @@
             "name" : "Demarcator File",
             "resourceDefinition" : {
               "cardinality" : "SINGLE",
-              "resourceTypes" : [ "FILE", "TEXT" ]
+              "resourceTypes" : [ "TEXT", "FILE" ]
             },
             "sensitive" : false
           },
@@ -8854,7 +8854,7 @@
             "name" : "Header File",
             "resourceDefinition" : {
               "cardinality" : "SINGLE",
-              "resourceTypes" : [ "FILE", "TEXT" ]
+              "resourceTypes" : [ "TEXT", "FILE" ]
             },
             "sensitive" : false
           },
@@ -8987,7 +8987,7 @@
           "Status Parse Path" : "$",
           "Send URL" : "http://#{app_alias}.octostar-main:8080/api/nifi/#{endpoint}?processor_suffix=#{processor_suffix}",
           "Poll HTTP Method" : "GET",
-          "Capture Pipeline End Time" : "False",
+          "Capture Pipeline End Time" : "True",
           "Tag Timeout" : "365 days",
           "Poll URL" : "http://#{app_alias}.octostar-main:8080/api/nifi/task-state/${osappcallasync.status.task_id}",
           "Fetch URL" : "http://#{app_alias}.octostar-main:8080/api/nifi/task-result/${osappcallasync.status.task_id}",
@@ -11016,18 +11016,18 @@
         }, {
           "componentType" : "FUNNEL",
           "groupIdentifier" : "61edfc82-6a9a-3aec-a9cb-759bb50d8331",
-          "identifier" : "c8bffea4-0195-1000-86d2-bbb1015282f9",
-          "position" : {
-            "x" : 712.0,
-            "y" : -3008.0
-          }
-        }, {
-          "componentType" : "FUNNEL",
-          "groupIdentifier" : "61edfc82-6a9a-3aec-a9cb-759bb50d8331",
           "identifier" : "1711cd77-ea27-3c84-997e-0451f6f98370",
           "position" : {
             "x" : 712.0,
             "y" : -4032.0
+          }
+        }, {
+          "componentType" : "FUNNEL",
+          "groupIdentifier" : "61edfc82-6a9a-3aec-a9cb-759bb50d8331",
+          "identifier" : "c8bffea4-0195-1000-86d2-bbb1015282f9",
+          "position" : {
+            "x" : 712.0,
+            "y" : -3008.0
           }
         } ],
         "groupIdentifier" : "a065dd9d-5916-3c8e-ac4e-e8e564f40a75",
@@ -11182,7 +11182,7 @@
             "Capture Metrics" : "True",
             "Max Poll Timeout" : "30 sec",
             "Max Data Transfer Timeout" : "60 sec",
-            "Capture Pipeline Start time" : "False",
+            "Capture Pipeline Start time" : "True",
             "Send HTTP Method" : "POST",
             "Max Body Size in Attribute" : "256",
             "Tag Name" : "Placeholder",
@@ -11583,7 +11583,7 @@
               "name" : "Footer File",
               "resourceDefinition" : {
                 "cardinality" : "SINGLE",
-                "resourceTypes" : [ "FILE", "TEXT" ]
+                "resourceTypes" : [ "TEXT", "FILE" ]
               },
               "sensitive" : false
             },
@@ -11601,7 +11601,7 @@
               "name" : "Demarcator File",
               "resourceDefinition" : {
                 "cardinality" : "SINGLE",
-                "resourceTypes" : [ "FILE", "TEXT" ]
+                "resourceTypes" : [ "TEXT", "FILE" ]
               },
               "sensitive" : false
             },
@@ -11626,7 +11626,7 @@
               "name" : "Header File",
               "resourceDefinition" : {
                 "cardinality" : "SINGLE",
-                "resourceTypes" : [ "FILE", "TEXT" ]
+                "resourceTypes" : [ "TEXT", "FILE" ]
               },
               "sensitive" : false
             },
@@ -11787,7 +11787,7 @@
               "name" : "Footer File",
               "resourceDefinition" : {
                 "cardinality" : "SINGLE",
-                "resourceTypes" : [ "FILE", "TEXT" ]
+                "resourceTypes" : [ "TEXT", "FILE" ]
               },
               "sensitive" : false
             },
@@ -11805,7 +11805,7 @@
               "name" : "Demarcator File",
               "resourceDefinition" : {
                 "cardinality" : "SINGLE",
-                "resourceTypes" : [ "FILE", "TEXT" ]
+                "resourceTypes" : [ "TEXT", "FILE" ]
               },
               "sensitive" : false
             },
@@ -11830,7 +11830,7 @@
               "name" : "Header File",
               "resourceDefinition" : {
                 "cardinality" : "SINGLE",
-                "resourceTypes" : [ "FILE", "TEXT" ]
+                "resourceTypes" : [ "TEXT", "FILE" ]
               },
               "sensitive" : false
             },
@@ -13471,18 +13471,18 @@
         }, {
           "componentType" : "FUNNEL",
           "groupIdentifier" : "3d3cca26-75ec-36aa-b3ae-6e0f9d882a5b",
-          "identifier" : "c89ae2c9-0195-1000-6de8-0471ef7c9351",
-          "position" : {
-            "x" : 924.7708740234375,
-            "y" : -2331.5439453125
-          }
-        }, {
-          "componentType" : "FUNNEL",
-          "groupIdentifier" : "3d3cca26-75ec-36aa-b3ae-6e0f9d882a5b",
           "identifier" : "c89ae2c7-0195-1000-aa70-6e4c951842a4",
           "position" : {
             "x" : 925.6148681640625,
             "y" : -2743.877197265625
+          }
+        }, {
+          "componentType" : "FUNNEL",
+          "groupIdentifier" : "3d3cca26-75ec-36aa-b3ae-6e0f9d882a5b",
+          "identifier" : "c89ae2c9-0195-1000-6de8-0471ef7c9351",
+          "position" : {
+            "x" : 924.7708740234375,
+            "y" : -2331.5439453125
           }
         }, {
           "componentType" : "FUNNEL",
@@ -14026,7 +14026,7 @@
               "name" : "Footer File",
               "resourceDefinition" : {
                 "cardinality" : "SINGLE",
-                "resourceTypes" : [ "FILE", "TEXT" ]
+                "resourceTypes" : [ "TEXT", "FILE" ]
               },
               "sensitive" : false
             },
@@ -14044,7 +14044,7 @@
               "name" : "Demarcator File",
               "resourceDefinition" : {
                 "cardinality" : "SINGLE",
-                "resourceTypes" : [ "FILE", "TEXT" ]
+                "resourceTypes" : [ "TEXT", "FILE" ]
               },
               "sensitive" : false
             },
@@ -14069,7 +14069,7 @@
               "name" : "Header File",
               "resourceDefinition" : {
                 "cardinality" : "SINGLE",
-                "resourceTypes" : [ "FILE", "TEXT" ]
+                "resourceTypes" : [ "TEXT", "FILE" ]
               },
               "sensitive" : false
             },
@@ -17642,18 +17642,18 @@
       }, {
         "componentType" : "FUNNEL",
         "groupIdentifier" : "638bf817-5c54-3374-9ab5-9aa20b11480b",
-        "identifier" : "252f44e0-9aea-349f-ba7b-110fadd234ac",
-        "position" : {
-          "x" : 4312.0,
-          "y" : 8888.0
-        }
-      }, {
-        "componentType" : "FUNNEL",
-        "groupIdentifier" : "638bf817-5c54-3374-9ab5-9aa20b11480b",
         "identifier" : "71c819db-4a80-3155-b8d4-59d7c9e0b3c1",
         "position" : {
           "x" : 4312.0,
           "y" : 8640.0
+        }
+      }, {
+        "componentType" : "FUNNEL",
+        "groupIdentifier" : "638bf817-5c54-3374-9ab5-9aa20b11480b",
+        "identifier" : "252f44e0-9aea-349f-ba7b-110fadd234ac",
+        "position" : {
+          "x" : 4312.0,
+          "y" : 8888.0
         }
       }, {
         "componentType" : "FUNNEL",
@@ -17706,18 +17706,18 @@
       }, {
         "componentType" : "FUNNEL",
         "groupIdentifier" : "638bf817-5c54-3374-9ab5-9aa20b11480b",
-        "identifier" : "02246a08-2172-3747-b5c4-465593e27df2",
-        "position" : {
-          "x" : 4312.0,
-          "y" : 10472.0
-        }
-      }, {
-        "componentType" : "FUNNEL",
-        "groupIdentifier" : "638bf817-5c54-3374-9ab5-9aa20b11480b",
         "identifier" : "6dcd4d36-b15b-37d3-b546-fbf54878528e",
         "position" : {
           "x" : 4312.0,
           "y" : 10832.0
+        }
+      }, {
+        "componentType" : "FUNNEL",
+        "groupIdentifier" : "638bf817-5c54-3374-9ab5-9aa20b11480b",
+        "identifier" : "02246a08-2172-3747-b5c4-465593e27df2",
+        "position" : {
+          "x" : 4312.0,
+          "y" : 10472.0
         }
       }, {
         "componentType" : "FUNNEL",
@@ -19502,18 +19502,18 @@
         }, {
           "componentType" : "FUNNEL",
           "groupIdentifier" : "1566a651-0196-1000-2ba9-4e4c42aa3507",
-          "identifier" : "1566a667-0196-1000-179a-4f9e5585ec0c",
-          "position" : {
-            "x" : 502.228069034938,
-            "y" : -2774.3726235762806
-          }
-        }, {
-          "componentType" : "FUNNEL",
-          "groupIdentifier" : "1566a651-0196-1000-2ba9-4e4c42aa3507",
           "identifier" : "1566a663-0196-1000-7352-12870c11a224",
           "position" : {
             "x" : 504.0,
             "y" : -3040.0
+          }
+        }, {
+          "componentType" : "FUNNEL",
+          "groupIdentifier" : "1566a651-0196-1000-2ba9-4e4c42aa3507",
+          "identifier" : "1566a667-0196-1000-179a-4f9e5585ec0c",
+          "position" : {
+            "x" : 502.228069034938,
+            "y" : -2774.3726235762806
           }
         }, {
           "componentType" : "FUNNEL",
@@ -20344,7 +20344,7 @@
               "name" : "Footer File",
               "resourceDefinition" : {
                 "cardinality" : "SINGLE",
-                "resourceTypes" : [ "FILE", "TEXT" ]
+                "resourceTypes" : [ "TEXT", "FILE" ]
               },
               "sensitive" : false
             },
@@ -20362,7 +20362,7 @@
               "name" : "Demarcator File",
               "resourceDefinition" : {
                 "cardinality" : "SINGLE",
-                "resourceTypes" : [ "FILE", "TEXT" ]
+                "resourceTypes" : [ "TEXT", "FILE" ]
               },
               "sensitive" : false
             },
@@ -20387,7 +20387,7 @@
               "name" : "Header File",
               "resourceDefinition" : {
                 "cardinality" : "SINGLE",
-                "resourceTypes" : [ "FILE", "TEXT" ]
+                "resourceTypes" : [ "TEXT", "FILE" ]
               },
               "sensitive" : false
             },
@@ -21309,18 +21309,18 @@
         }, {
           "componentType" : "FUNNEL",
           "groupIdentifier" : "15669d5d-0196-1000-9670-3f0f75002c1b",
-          "identifier" : "15669d6f-0196-1000-4f73-22221e79bdf3",
-          "position" : {
-            "x" : 504.0,
-            "y" : -2624.0
-          }
-        }, {
-          "componentType" : "FUNNEL",
-          "groupIdentifier" : "15669d5d-0196-1000-9670-3f0f75002c1b",
           "identifier" : "15669d73-0196-1000-a6d1-9e91a3a171b2",
           "position" : {
             "x" : 502.228069034938,
             "y" : -3686.3726235762806
+          }
+        }, {
+          "componentType" : "FUNNEL",
+          "groupIdentifier" : "15669d5d-0196-1000-9670-3f0f75002c1b",
+          "identifier" : "15669d6f-0196-1000-4f73-22221e79bdf3",
+          "position" : {
+            "x" : 504.0,
+            "y" : -2624.0
           }
         }, {
           "componentType" : "FUNNEL",
@@ -21682,7 +21682,7 @@
               "name" : "Footer File",
               "resourceDefinition" : {
                 "cardinality" : "SINGLE",
-                "resourceTypes" : [ "FILE", "TEXT" ]
+                "resourceTypes" : [ "TEXT", "FILE" ]
               },
               "sensitive" : false
             },
@@ -21700,7 +21700,7 @@
               "name" : "Demarcator File",
               "resourceDefinition" : {
                 "cardinality" : "SINGLE",
-                "resourceTypes" : [ "FILE", "TEXT" ]
+                "resourceTypes" : [ "TEXT", "FILE" ]
               },
               "sensitive" : false
             },
@@ -21725,7 +21725,7 @@
               "name" : "Header File",
               "resourceDefinition" : {
                 "cardinality" : "SINGLE",
-                "resourceTypes" : [ "FILE", "TEXT" ]
+                "resourceTypes" : [ "TEXT", "FILE" ]
               },
               "sensitive" : false
             },
@@ -23134,18 +23134,18 @@
         }, {
           "componentType" : "FUNNEL",
           "groupIdentifier" : "255b2bb9-d690-3967-96de-397fd4b04ab5",
-          "identifier" : "b4560f79-3b79-3957-bb8c-a6f737977979",
-          "position" : {
-            "x" : 2360.0,
-            "y" : 4408.0
-          }
-        }, {
-          "componentType" : "FUNNEL",
-          "groupIdentifier" : "255b2bb9-d690-3967-96de-397fd4b04ab5",
           "identifier" : "9758bdfd-0e3a-3f85-921b-244543b38214",
           "position" : {
             "x" : 2360.0,
             "y" : 4944.0
+          }
+        }, {
+          "componentType" : "FUNNEL",
+          "groupIdentifier" : "255b2bb9-d690-3967-96de-397fd4b04ab5",
+          "identifier" : "b4560f79-3b79-3957-bb8c-a6f737977979",
+          "position" : {
+            "x" : 2360.0,
+            "y" : 4408.0
           }
         }, {
           "componentType" : "FUNNEL",
@@ -23248,22 +23248,6 @@
         }, {
           "componentType" : "LABEL",
           "groupIdentifier" : "255b2bb9-d690-3967-96de-397fd4b04ab5",
-          "height" : 88.0,
-          "identifier" : "40922371-1424-39ad-baae-818d551dc129",
-          "label" : "Wait and Merge >>",
-          "position" : {
-            "x" : 3920.0,
-            "y" : 4096.0
-          },
-          "style" : {
-            "background-color" : "#709be0",
-            "font-size" : "24px"
-          },
-          "width" : 2168.0,
-          "zIndex" : 0
-        }, {
-          "componentType" : "LABEL",
-          "groupIdentifier" : "255b2bb9-d690-3967-96de-397fd4b04ab5",
           "height" : 72.0,
           "identifier" : "fdf5caf1-86b9-3d61-af16-1bfd246f2d21",
           "label" : "Filter Fragments of the Right Type >>",
@@ -23276,6 +23260,22 @@
             "font-size" : "24px"
           },
           "width" : 1032.0,
+          "zIndex" : 0
+        }, {
+          "componentType" : "LABEL",
+          "groupIdentifier" : "255b2bb9-d690-3967-96de-397fd4b04ab5",
+          "height" : 88.0,
+          "identifier" : "40922371-1424-39ad-baae-818d551dc129",
+          "label" : "Wait and Merge >>",
+          "position" : {
+            "x" : 3920.0,
+            "y" : 4096.0
+          },
+          "style" : {
+            "background-color" : "#709be0",
+            "font-size" : "24px"
+          },
+          "width" : 2168.0,
           "zIndex" : 0
         }, {
           "componentType" : "LABEL",
@@ -23966,7 +23966,7 @@
               "name" : "Footer File",
               "resourceDefinition" : {
                 "cardinality" : "SINGLE",
-                "resourceTypes" : [ "FILE", "TEXT" ]
+                "resourceTypes" : [ "TEXT", "FILE" ]
               },
               "sensitive" : false
             },
@@ -23984,7 +23984,7 @@
               "name" : "Demarcator File",
               "resourceDefinition" : {
                 "cardinality" : "SINGLE",
-                "resourceTypes" : [ "FILE", "TEXT" ]
+                "resourceTypes" : [ "TEXT", "FILE" ]
               },
               "sensitive" : false
             },
@@ -24009,7 +24009,7 @@
               "name" : "Header File",
               "resourceDefinition" : {
                 "cardinality" : "SINGLE",
-                "resourceTypes" : [ "FILE", "TEXT" ]
+                "resourceTypes" : [ "TEXT", "FILE" ]
               },
               "sensitive" : false
             },
@@ -25032,18 +25032,18 @@
         }, {
           "componentType" : "FUNNEL",
           "groupIdentifier" : "634a4bba-d6ba-3021-bf32-2faf61c055ba",
-          "identifier" : "c86773d2-0195-1000-922b-c093b07b070a",
-          "position" : {
-            "x" : 512.0,
-            "y" : -2304.0
-          }
-        }, {
-          "componentType" : "FUNNEL",
-          "groupIdentifier" : "634a4bba-d6ba-3021-bf32-2faf61c055ba",
           "identifier" : "c86773d3-0195-1000-bbdb-5e878c9921dc",
           "position" : {
             "x" : 510.1392892124686,
             "y" : -3636.3230517408483
+          }
+        }, {
+          "componentType" : "FUNNEL",
+          "groupIdentifier" : "634a4bba-d6ba-3021-bf32-2faf61c055ba",
+          "identifier" : "c86773d2-0195-1000-922b-c093b07b070a",
+          "position" : {
+            "x" : 512.0,
+            "y" : -2304.0
           }
         } ],
         "groupIdentifier" : "638bf817-5c54-3374-9ab5-9aa20b11480b",
@@ -25296,7 +25296,7 @@
               "name" : "Footer File",
               "resourceDefinition" : {
                 "cardinality" : "SINGLE",
-                "resourceTypes" : [ "FILE", "TEXT" ]
+                "resourceTypes" : [ "TEXT", "FILE" ]
               },
               "sensitive" : false
             },
@@ -25314,7 +25314,7 @@
               "name" : "Demarcator File",
               "resourceDefinition" : {
                 "cardinality" : "SINGLE",
-                "resourceTypes" : [ "FILE", "TEXT" ]
+                "resourceTypes" : [ "TEXT", "FILE" ]
               },
               "sensitive" : false
             },
@@ -25339,7 +25339,7 @@
               "name" : "Header File",
               "resourceDefinition" : {
                 "cardinality" : "SINGLE",
-                "resourceTypes" : [ "FILE", "TEXT" ]
+                "resourceTypes" : [ "TEXT", "FILE" ]
               },
               "sensitive" : false
             },
@@ -27035,18 +27035,18 @@
         "funnels" : [ {
           "componentType" : "FUNNEL",
           "groupIdentifier" : "32210390-3c96-397d-b192-769a1482aa87",
-          "identifier" : "30eb426d-3e26-3f83-a27d-813cbccc221b",
-          "position" : {
-            "x" : -200.0,
-            "y" : 2296.0
-          }
-        }, {
-          "componentType" : "FUNNEL",
-          "groupIdentifier" : "32210390-3c96-397d-b192-769a1482aa87",
           "identifier" : "f452921d-6a8a-36e9-be86-88fd9cf36859",
           "position" : {
             "x" : -200.0,
             "y" : 2488.0
+          }
+        }, {
+          "componentType" : "FUNNEL",
+          "groupIdentifier" : "32210390-3c96-397d-b192-769a1482aa87",
+          "identifier" : "30eb426d-3e26-3f83-a27d-813cbccc221b",
+          "position" : {
+            "x" : -200.0,
+            "y" : 2296.0
           }
         }, {
           "componentType" : "FUNNEL",
@@ -27083,18 +27083,18 @@
         }, {
           "componentType" : "FUNNEL",
           "groupIdentifier" : "32210390-3c96-397d-b192-769a1482aa87",
-          "identifier" : "4e44c87f-9677-31b1-81a5-f1efa456a41c",
-          "position" : {
-            "x" : -200.0,
-            "y" : -24.0
-          }
-        }, {
-          "componentType" : "FUNNEL",
-          "groupIdentifier" : "32210390-3c96-397d-b192-769a1482aa87",
           "identifier" : "b052ceb1-54ec-3688-9088-db7117cb2ee1",
           "position" : {
             "x" : -200.0,
             "y" : 1032.0
+          }
+        }, {
+          "componentType" : "FUNNEL",
+          "groupIdentifier" : "32210390-3c96-397d-b192-769a1482aa87",
+          "identifier" : "4e44c87f-9677-31b1-81a5-f1efa456a41c",
+          "position" : {
+            "x" : -200.0,
+            "y" : -24.0
           }
         }, {
           "componentType" : "FUNNEL",
@@ -28326,18 +28326,18 @@
           "funnels" : [ {
             "componentType" : "FUNNEL",
             "groupIdentifier" : "3c1f8e2e-04fd-3027-8f61-b61a5163623b",
-            "identifier" : "c87931d2-0195-1000-b65e-0d861b4607dc",
-            "position" : {
-              "x" : 504.0,
-              "y" : -3528.0
-            }
-          }, {
-            "componentType" : "FUNNEL",
-            "groupIdentifier" : "3c1f8e2e-04fd-3027-8f61-b61a5163623b",
             "identifier" : "c87931cb-0195-1000-d854-e2748a474f11",
             "position" : {
               "x" : 502.228069034938,
               "y" : -2774.3726235762806
+            }
+          }, {
+            "componentType" : "FUNNEL",
+            "groupIdentifier" : "3c1f8e2e-04fd-3027-8f61-b61a5163623b",
+            "identifier" : "c87931d2-0195-1000-b65e-0d861b4607dc",
+            "position" : {
+              "x" : 504.0,
+              "y" : -3528.0
             }
           }, {
             "componentType" : "FUNNEL",
@@ -29403,7 +29403,7 @@
                 "name" : "Footer File",
                 "resourceDefinition" : {
                   "cardinality" : "SINGLE",
-                  "resourceTypes" : [ "FILE", "TEXT" ]
+                  "resourceTypes" : [ "TEXT", "FILE" ]
                 },
                 "sensitive" : false
               },
@@ -29421,7 +29421,7 @@
                 "name" : "Demarcator File",
                 "resourceDefinition" : {
                   "cardinality" : "SINGLE",
-                  "resourceTypes" : [ "FILE", "TEXT" ]
+                  "resourceTypes" : [ "TEXT", "FILE" ]
                 },
                 "sensitive" : false
               },
@@ -29446,7 +29446,7 @@
                 "name" : "Header File",
                 "resourceDefinition" : {
                   "cardinality" : "SINGLE",
-                  "resourceTypes" : [ "FILE", "TEXT" ]
+                  "resourceTypes" : [ "TEXT", "FILE" ]
                 },
                 "sensitive" : false
               },
@@ -30631,18 +30631,18 @@
           "funnels" : [ {
             "componentType" : "FUNNEL",
             "groupIdentifier" : "0666cb7b-06f0-3b0f-8600-1d83e220d7ba",
-            "identifier" : "c8947da4-0195-1000-ed7a-f446a61f42a1",
-            "position" : {
-              "x" : 455.43491453800016,
-              "y" : -2118.5769163848117
-            }
-          }, {
-            "componentType" : "FUNNEL",
-            "groupIdentifier" : "0666cb7b-06f0-3b0f-8600-1d83e220d7ba",
             "identifier" : "c8947da2-0195-1000-70fe-fbdebe7c33da",
             "position" : {
               "x" : 456.0,
               "y" : -2888.0
+            }
+          }, {
+            "componentType" : "FUNNEL",
+            "groupIdentifier" : "0666cb7b-06f0-3b0f-8600-1d83e220d7ba",
+            "identifier" : "c8947da4-0195-1000-ed7a-f446a61f42a1",
+            "position" : {
+              "x" : 455.43491453800016,
+              "y" : -2118.5769163848117
             }
           }, {
             "componentType" : "FUNNEL",
@@ -30663,18 +30663,18 @@
           }, {
             "componentType" : "FUNNEL",
             "groupIdentifier" : "0666cb7b-06f0-3b0f-8600-1d83e220d7ba",
-            "identifier" : "c8947d9d-0195-1000-6b14-72a510db99c7",
-            "position" : {
-              "x" : 455.43491453800016,
-              "y" : -3462.5769163848117
-            }
-          }, {
-            "componentType" : "FUNNEL",
-            "groupIdentifier" : "0666cb7b-06f0-3b0f-8600-1d83e220d7ba",
             "identifier" : "c8947d9f-0195-1000-1f17-fdee1ad14ee2",
             "position" : {
               "x" : 455.43491453800016,
               "y" : -2262.5769163848117
+            }
+          }, {
+            "componentType" : "FUNNEL",
+            "groupIdentifier" : "0666cb7b-06f0-3b0f-8600-1d83e220d7ba",
+            "identifier" : "c8947d9d-0195-1000-6b14-72a510db99c7",
+            "position" : {
+              "x" : 455.43491453800016,
+              "y" : -3462.5769163848117
             }
           }, {
             "componentType" : "FUNNEL",
@@ -31540,7 +31540,7 @@
                 "name" : "Footer File",
                 "resourceDefinition" : {
                   "cardinality" : "SINGLE",
-                  "resourceTypes" : [ "FILE", "TEXT" ]
+                  "resourceTypes" : [ "TEXT", "FILE" ]
                 },
                 "sensitive" : false
               },
@@ -31558,7 +31558,7 @@
                 "name" : "Demarcator File",
                 "resourceDefinition" : {
                   "cardinality" : "SINGLE",
-                  "resourceTypes" : [ "FILE", "TEXT" ]
+                  "resourceTypes" : [ "TEXT", "FILE" ]
                 },
                 "sensitive" : false
               },
@@ -31583,7 +31583,7 @@
                 "name" : "Header File",
                 "resourceDefinition" : {
                   "cardinality" : "SINGLE",
-                  "resourceTypes" : [ "FILE", "TEXT" ]
+                  "resourceTypes" : [ "TEXT", "FILE" ]
                 },
                 "sensitive" : false
               },
@@ -32759,22 +32759,6 @@
           "labels" : [ {
             "componentType" : "LABEL",
             "groupIdentifier" : "a0f4ed72-bb53-34ef-b125-13183008bad6",
-            "height" : 96.0,
-            "identifier" : "ee84d2b8-6960-335d-8bf7-d121961b4afa",
-            "label" : "PROCESSING >>",
-            "position" : {
-              "x" : 2464.0,
-              "y" : 3672.0
-            },
-            "style" : {
-              "background-color" : "#93e070",
-              "font-size" : "24px"
-            },
-            "width" : 3728.0,
-            "zIndex" : 0
-          }, {
-            "componentType" : "LABEL",
-            "groupIdentifier" : "a0f4ed72-bb53-34ef-b125-13183008bad6",
             "height" : 72.0,
             "identifier" : "73bb1398-266a-3f54-9149-482e19b88339",
             "label" : "Filter Fragments of the Right Type >>",
@@ -32787,6 +32771,22 @@
               "font-size" : "24px"
             },
             "width" : 1032.0,
+            "zIndex" : 0
+          }, {
+            "componentType" : "LABEL",
+            "groupIdentifier" : "a0f4ed72-bb53-34ef-b125-13183008bad6",
+            "height" : 96.0,
+            "identifier" : "ee84d2b8-6960-335d-8bf7-d121961b4afa",
+            "label" : "PROCESSING >>",
+            "position" : {
+              "x" : 2464.0,
+              "y" : 3672.0
+            },
+            "style" : {
+              "background-color" : "#93e070",
+              "font-size" : "24px"
+            },
+            "width" : 3728.0,
             "zIndex" : 0
           }, {
             "componentType" : "LABEL",
@@ -33525,7 +33525,7 @@
                 "name" : "Footer File",
                 "resourceDefinition" : {
                   "cardinality" : "SINGLE",
-                  "resourceTypes" : [ "FILE", "TEXT" ]
+                  "resourceTypes" : [ "TEXT", "FILE" ]
                 },
                 "sensitive" : false
               },
@@ -33543,7 +33543,7 @@
                 "name" : "Demarcator File",
                 "resourceDefinition" : {
                   "cardinality" : "SINGLE",
-                  "resourceTypes" : [ "FILE", "TEXT" ]
+                  "resourceTypes" : [ "TEXT", "FILE" ]
                 },
                 "sensitive" : false
               },
@@ -33568,7 +33568,7 @@
                 "name" : "Header File",
                 "resourceDefinition" : {
                   "cardinality" : "SINGLE",
-                  "resourceTypes" : [ "FILE", "TEXT" ]
+                  "resourceTypes" : [ "TEXT", "FILE" ]
                 },
                 "sensitive" : false
               },
@@ -35761,7 +35761,7 @@
                 "name" : "Footer File",
                 "resourceDefinition" : {
                   "cardinality" : "SINGLE",
-                  "resourceTypes" : [ "FILE", "TEXT" ]
+                  "resourceTypes" : [ "TEXT", "FILE" ]
                 },
                 "sensitive" : false
               },
@@ -35779,7 +35779,7 @@
                 "name" : "Demarcator File",
                 "resourceDefinition" : {
                   "cardinality" : "SINGLE",
-                  "resourceTypes" : [ "FILE", "TEXT" ]
+                  "resourceTypes" : [ "TEXT", "FILE" ]
                 },
                 "sensitive" : false
               },
@@ -35804,7 +35804,7 @@
                 "name" : "Header File",
                 "resourceDefinition" : {
                   "cardinality" : "SINGLE",
-                  "resourceTypes" : [ "FILE", "TEXT" ]
+                  "resourceTypes" : [ "TEXT", "FILE" ]
                 },
                 "sensitive" : false
               },
@@ -38031,7 +38031,7 @@
                 "name" : "Footer File",
                 "resourceDefinition" : {
                   "cardinality" : "SINGLE",
-                  "resourceTypes" : [ "FILE", "TEXT" ]
+                  "resourceTypes" : [ "TEXT", "FILE" ]
                 },
                 "sensitive" : false
               },
@@ -38049,7 +38049,7 @@
                 "name" : "Demarcator File",
                 "resourceDefinition" : {
                   "cardinality" : "SINGLE",
-                  "resourceTypes" : [ "FILE", "TEXT" ]
+                  "resourceTypes" : [ "TEXT", "FILE" ]
                 },
                 "sensitive" : false
               },
@@ -38074,7 +38074,7 @@
                 "name" : "Header File",
                 "resourceDefinition" : {
                   "cardinality" : "SINGLE",
-                  "resourceTypes" : [ "FILE", "TEXT" ]
+                  "resourceTypes" : [ "TEXT", "FILE" ]
                 },
                 "sensitive" : false
               },
@@ -39971,18 +39971,18 @@
         }, {
           "componentType" : "FUNNEL",
           "groupIdentifier" : "6eccaa0d-c729-3433-ab52-02d95495b97c",
-          "identifier" : "c864e79f-0195-1000-147e-2bc1690d3ebf",
-          "position" : {
-            "x" : -224.0,
-            "y" : -3128.0
-          }
-        }, {
-          "componentType" : "FUNNEL",
-          "groupIdentifier" : "6eccaa0d-c729-3433-ab52-02d95495b97c",
           "identifier" : "c864e7a1-0195-1000-24b7-150699d7465d",
           "position" : {
             "x" : -223.6984679493694,
             "y" : -3543.6260976644207
+          }
+        }, {
+          "componentType" : "FUNNEL",
+          "groupIdentifier" : "6eccaa0d-c729-3433-ab52-02d95495b97c",
+          "identifier" : "c864e79f-0195-1000-147e-2bc1690d3ebf",
+          "position" : {
+            "x" : -224.0,
+            "y" : -3128.0
           }
         }, {
           "componentType" : "FUNNEL",
@@ -40395,7 +40395,7 @@
               "name" : "Footer File",
               "resourceDefinition" : {
                 "cardinality" : "SINGLE",
-                "resourceTypes" : [ "FILE", "TEXT" ]
+                "resourceTypes" : [ "TEXT", "FILE" ]
               },
               "sensitive" : false
             },
@@ -40413,7 +40413,7 @@
               "name" : "Demarcator File",
               "resourceDefinition" : {
                 "cardinality" : "SINGLE",
-                "resourceTypes" : [ "FILE", "TEXT" ]
+                "resourceTypes" : [ "TEXT", "FILE" ]
               },
               "sensitive" : false
             },
@@ -40438,7 +40438,7 @@
               "name" : "Header File",
               "resourceDefinition" : {
                 "cardinality" : "SINGLE",
-                "resourceTypes" : [ "FILE", "TEXT" ]
+                "resourceTypes" : [ "TEXT", "FILE" ]
               },
               "sensitive" : false
             },
@@ -42073,14 +42073,6 @@
         }, {
           "componentType" : "FUNNEL",
           "groupIdentifier" : "933674d7-bc4e-3437-81c0-45d568a2d03e",
-          "identifier" : "c858bc8b-0195-1000-eaa3-4b49f12ba059",
-          "position" : {
-            "x" : 528.0,
-            "y" : -3312.0
-          }
-        }, {
-          "componentType" : "FUNNEL",
-          "groupIdentifier" : "933674d7-bc4e-3437-81c0-45d568a2d03e",
           "identifier" : "c858bc8a-0195-1000-3285-8985b8e9b1cb",
           "position" : {
             "x" : 526.4434285106854,
@@ -42089,10 +42081,10 @@
         }, {
           "componentType" : "FUNNEL",
           "groupIdentifier" : "933674d7-bc4e-3437-81c0-45d568a2d03e",
-          "identifier" : "c858bc88-0195-1000-ee84-680304e7d42c",
+          "identifier" : "c858bc8b-0195-1000-eaa3-4b49f12ba059",
           "position" : {
-            "x" : 526.4434285106854,
-            "y" : -2909.7210830936156
+            "x" : 528.0,
+            "y" : -3312.0
           }
         }, {
           "componentType" : "FUNNEL",
@@ -42105,6 +42097,14 @@
         }, {
           "componentType" : "FUNNEL",
           "groupIdentifier" : "933674d7-bc4e-3437-81c0-45d568a2d03e",
+          "identifier" : "c858bc88-0195-1000-ee84-680304e7d42c",
+          "position" : {
+            "x" : 526.4434285106854,
+            "y" : -2909.7210830936156
+          }
+        }, {
+          "componentType" : "FUNNEL",
+          "groupIdentifier" : "933674d7-bc4e-3437-81c0-45d568a2d03e",
           "identifier" : "9689dc1b-2a2c-30b6-a41a-f55bfac15022",
           "position" : {
             "x" : 2688.0,
@@ -42113,18 +42113,18 @@
         }, {
           "componentType" : "FUNNEL",
           "groupIdentifier" : "933674d7-bc4e-3437-81c0-45d568a2d03e",
-          "identifier" : "c858bc81-0195-1000-4dfd-a7a2adcc0641",
-          "position" : {
-            "x" : 526.4434285106854,
-            "y" : -2645.7210830936156
-          }
-        }, {
-          "componentType" : "FUNNEL",
-          "groupIdentifier" : "933674d7-bc4e-3437-81c0-45d568a2d03e",
           "identifier" : "c858bc87-0195-1000-6ad5-63b4f2a22aa2",
           "position" : {
             "x" : 526.4434285106854,
             "y" : -2493.7210830936156
+          }
+        }, {
+          "componentType" : "FUNNEL",
+          "groupIdentifier" : "933674d7-bc4e-3437-81c0-45d568a2d03e",
+          "identifier" : "c858bc81-0195-1000-4dfd-a7a2adcc0641",
+          "position" : {
+            "x" : 526.4434285106854,
+            "y" : -2645.7210830936156
           }
         }, {
           "componentType" : "FUNNEL",
@@ -43118,7 +43118,7 @@
               "name" : "Footer File",
               "resourceDefinition" : {
                 "cardinality" : "SINGLE",
-                "resourceTypes" : [ "FILE", "TEXT" ]
+                "resourceTypes" : [ "TEXT", "FILE" ]
               },
               "sensitive" : false
             },
@@ -43136,7 +43136,7 @@
               "name" : "Demarcator File",
               "resourceDefinition" : {
                 "cardinality" : "SINGLE",
-                "resourceTypes" : [ "FILE", "TEXT" ]
+                "resourceTypes" : [ "TEXT", "FILE" ]
               },
               "sensitive" : false
             },
@@ -43161,7 +43161,7 @@
               "name" : "Header File",
               "resourceDefinition" : {
                 "cardinality" : "SINGLE",
-                "resourceTypes" : [ "FILE", "TEXT" ]
+                "resourceTypes" : [ "TEXT", "FILE" ]
               },
               "sensitive" : false
             },
@@ -43526,18 +43526,18 @@
         }, {
           "componentType" : "FUNNEL",
           "groupIdentifier" : "475ac94f-5f4e-33e7-9b9f-16a8b35e2a37",
-          "identifier" : "c8876a3b-0195-1000-d512-f54a29056135",
-          "position" : {
-            "x" : 2608.0,
-            "y" : -2248.0
-          }
-        }, {
-          "componentType" : "FUNNEL",
-          "groupIdentifier" : "475ac94f-5f4e-33e7-9b9f-16a8b35e2a37",
           "identifier" : "c8876a3c-0195-1000-db50-78fd594d62f9",
           "position" : {
             "x" : 2608.0,
             "y" : -2600.0
+          }
+        }, {
+          "componentType" : "FUNNEL",
+          "groupIdentifier" : "475ac94f-5f4e-33e7-9b9f-16a8b35e2a37",
+          "identifier" : "c8876a3b-0195-1000-d512-f54a29056135",
+          "position" : {
+            "x" : 2608.0,
+            "y" : -2248.0
           }
         } ],
         "groupIdentifier" : "638bf817-5c54-3374-9ab5-9aa20b11480b",
@@ -44970,10 +44970,10 @@
         }, {
           "componentType" : "FUNNEL",
           "groupIdentifier" : "343ac16f-7420-3b11-9594-0099d1cb4839",
-          "identifier" : "c86b87c6-0195-1000-9554-a0ea2772715d",
+          "identifier" : "c86b87c1-0195-1000-a8ed-7d170331139b",
           "position" : {
             "x" : 440.0,
-            "y" : -2640.0
+            "y" : -2488.0
           }
         }, {
           "componentType" : "FUNNEL",
@@ -44986,18 +44986,10 @@
         }, {
           "componentType" : "FUNNEL",
           "groupIdentifier" : "343ac16f-7420-3b11-9594-0099d1cb4839",
-          "identifier" : "c86b87c1-0195-1000-a8ed-7d170331139b",
+          "identifier" : "c86b87c6-0195-1000-9554-a0ea2772715d",
           "position" : {
             "x" : 440.0,
-            "y" : -2488.0
-          }
-        }, {
-          "componentType" : "FUNNEL",
-          "groupIdentifier" : "343ac16f-7420-3b11-9594-0099d1cb4839",
-          "identifier" : "c86b87bc-0195-1000-ea44-fc65a89c6490",
-          "position" : {
-            "x" : 437.9716080828398,
-            "y" : -3635.215890964687
+            "y" : -2640.0
           }
         }, {
           "componentType" : "FUNNEL",
@@ -45006,6 +44998,14 @@
           "position" : {
             "x" : 440.0,
             "y" : -2864.0
+          }
+        }, {
+          "componentType" : "FUNNEL",
+          "groupIdentifier" : "343ac16f-7420-3b11-9594-0099d1cb4839",
+          "identifier" : "c86b87bc-0195-1000-ea44-fc65a89c6490",
+          "position" : {
+            "x" : 437.9716080828398,
+            "y" : -3635.215890964687
           }
         }, {
           "componentType" : "FUNNEL",
@@ -46015,7 +46015,7 @@
               "name" : "Footer File",
               "resourceDefinition" : {
                 "cardinality" : "SINGLE",
-                "resourceTypes" : [ "FILE", "TEXT" ]
+                "resourceTypes" : [ "TEXT", "FILE" ]
               },
               "sensitive" : false
             },
@@ -46033,7 +46033,7 @@
               "name" : "Demarcator File",
               "resourceDefinition" : {
                 "cardinality" : "SINGLE",
-                "resourceTypes" : [ "FILE", "TEXT" ]
+                "resourceTypes" : [ "TEXT", "FILE" ]
               },
               "sensitive" : false
             },
@@ -46058,7 +46058,7 @@
               "name" : "Header File",
               "resourceDefinition" : {
                 "cardinality" : "SINGLE",
-                "resourceTypes" : [ "FILE", "TEXT" ]
+                "resourceTypes" : [ "TEXT", "FILE" ]
               },
               "sensitive" : false
             },
@@ -47004,18 +47004,18 @@
         }, {
           "componentType" : "FUNNEL",
           "groupIdentifier" : "62c4335a-b63f-3adf-a169-457aff8f0967",
-          "identifier" : "cb9e015d-ffe9-3b25-82c8-9422557e26f7",
-          "position" : {
-            "x" : 2336.0,
-            "y" : 4592.0
-          }
-        }, {
-          "componentType" : "FUNNEL",
-          "groupIdentifier" : "62c4335a-b63f-3adf-a169-457aff8f0967",
           "identifier" : "b5fd4e09-2559-389d-9cd4-df2106657f25",
           "position" : {
             "x" : 4064.0,
             "y" : 5968.0
+          }
+        }, {
+          "componentType" : "FUNNEL",
+          "groupIdentifier" : "62c4335a-b63f-3adf-a169-457aff8f0967",
+          "identifier" : "cb9e015d-ffe9-3b25-82c8-9422557e26f7",
+          "position" : {
+            "x" : 2336.0,
+            "y" : 4592.0
           }
         }, {
           "componentType" : "FUNNEL",
@@ -47412,7 +47412,7 @@
               "name" : "Footer File",
               "resourceDefinition" : {
                 "cardinality" : "SINGLE",
-                "resourceTypes" : [ "FILE", "TEXT" ]
+                "resourceTypes" : [ "TEXT", "FILE" ]
               },
               "sensitive" : false
             },
@@ -47430,7 +47430,7 @@
               "name" : "Demarcator File",
               "resourceDefinition" : {
                 "cardinality" : "SINGLE",
-                "resourceTypes" : [ "FILE", "TEXT" ]
+                "resourceTypes" : [ "TEXT", "FILE" ]
               },
               "sensitive" : false
             },
@@ -47455,7 +47455,7 @@
               "name" : "Header File",
               "resourceDefinition" : {
                 "cardinality" : "SINGLE",
-                "resourceTypes" : [ "FILE", "TEXT" ]
+                "resourceTypes" : [ "TEXT", "FILE" ]
               },
               "sensitive" : false
             },
@@ -48870,18 +48870,18 @@
         }, {
           "componentType" : "FUNNEL",
           "groupIdentifier" : "de416302-085f-32de-8bdd-d06e6f76bed0",
-          "identifier" : "c86955a1-0195-1000-59d9-abffdce395cf",
-          "position" : {
-            "x" : 440.0,
-            "y" : -2416.0
-          }
-        }, {
-          "componentType" : "FUNNEL",
-          "groupIdentifier" : "de416302-085f-32de-8bdd-d06e6f76bed0",
           "identifier" : "c86955ac-0195-1000-a5fc-6b7a0024c025",
           "position" : {
             "x" : 440.0,
             "y" : -2712.0
+          }
+        }, {
+          "componentType" : "FUNNEL",
+          "groupIdentifier" : "de416302-085f-32de-8bdd-d06e6f76bed0",
+          "identifier" : "c86955a1-0195-1000-59d9-abffdce395cf",
+          "position" : {
+            "x" : 440.0,
+            "y" : -2416.0
           }
         }, {
           "componentType" : "FUNNEL",
@@ -49611,7 +49611,7 @@
               "name" : "Footer File",
               "resourceDefinition" : {
                 "cardinality" : "SINGLE",
-                "resourceTypes" : [ "FILE", "TEXT" ]
+                "resourceTypes" : [ "TEXT", "FILE" ]
               },
               "sensitive" : false
             },
@@ -49629,7 +49629,7 @@
               "name" : "Demarcator File",
               "resourceDefinition" : {
                 "cardinality" : "SINGLE",
-                "resourceTypes" : [ "FILE", "TEXT" ]
+                "resourceTypes" : [ "TEXT", "FILE" ]
               },
               "sensitive" : false
             },
@@ -49654,7 +49654,7 @@
               "name" : "Header File",
               "resourceDefinition" : {
                 "cardinality" : "SINGLE",
-                "resourceTypes" : [ "FILE", "TEXT" ]
+                "resourceTypes" : [ "TEXT", "FILE" ]
               },
               "sensitive" : false
             },
@@ -50677,18 +50677,18 @@
         "funnels" : [ {
           "componentType" : "FUNNEL",
           "groupIdentifier" : "6ca80326-0afc-3edd-94a3-940c41e77a98",
-          "identifier" : "e91d7cdb-a498-38c3-b8a3-dd7ed1411bed",
-          "position" : {
-            "x" : 2408.0,
-            "y" : 7104.0
-          }
-        }, {
-          "componentType" : "FUNNEL",
-          "groupIdentifier" : "6ca80326-0afc-3edd-94a3-940c41e77a98",
           "identifier" : "39d82255-9bf8-332c-9884-ff8ab8e27916",
           "position" : {
             "x" : 6256.0,
             "y" : 7632.0
+          }
+        }, {
+          "componentType" : "FUNNEL",
+          "groupIdentifier" : "6ca80326-0afc-3edd-94a3-940c41e77a98",
+          "identifier" : "e91d7cdb-a498-38c3-b8a3-dd7ed1411bed",
+          "position" : {
+            "x" : 2408.0,
+            "y" : 7104.0
           }
         }, {
           "componentType" : "FUNNEL",
@@ -50767,22 +50767,6 @@
         "labels" : [ {
           "componentType" : "LABEL",
           "groupIdentifier" : "6ca80326-0afc-3edd-94a3-940c41e77a98",
-          "height" : 96.0,
-          "identifier" : "f783bfca-b5cf-3b19-8ec9-03f15897777d",
-          "label" : "PROCESSING >>",
-          "position" : {
-            "x" : 2512.0,
-            "y" : 5832.0
-          },
-          "style" : {
-            "background-color" : "#93e070",
-            "font-size" : "24px"
-          },
-          "width" : 3728.0,
-          "zIndex" : 0
-        }, {
-          "componentType" : "LABEL",
-          "groupIdentifier" : "6ca80326-0afc-3edd-94a3-940c41e77a98",
           "height" : 72.0,
           "identifier" : "431bf2a4-847a-3705-a964-81722b14958f",
           "label" : "Filter Fragments of the Right Type >>",
@@ -50795,6 +50779,22 @@
             "font-size" : "24px"
           },
           "width" : 1032.0,
+          "zIndex" : 0
+        }, {
+          "componentType" : "LABEL",
+          "groupIdentifier" : "6ca80326-0afc-3edd-94a3-940c41e77a98",
+          "height" : 96.0,
+          "identifier" : "f783bfca-b5cf-3b19-8ec9-03f15897777d",
+          "label" : "PROCESSING >>",
+          "position" : {
+            "x" : 2512.0,
+            "y" : 5832.0
+          },
+          "style" : {
+            "background-color" : "#93e070",
+            "font-size" : "24px"
+          },
+          "width" : 3728.0,
           "zIndex" : 0
         }, {
           "componentType" : "LABEL",
@@ -51377,7 +51377,7 @@
               "name" : "Footer File",
               "resourceDefinition" : {
                 "cardinality" : "SINGLE",
-                "resourceTypes" : [ "FILE", "TEXT" ]
+                "resourceTypes" : [ "TEXT", "FILE" ]
               },
               "sensitive" : false
             },
@@ -51395,7 +51395,7 @@
               "name" : "Demarcator File",
               "resourceDefinition" : {
                 "cardinality" : "SINGLE",
-                "resourceTypes" : [ "FILE", "TEXT" ]
+                "resourceTypes" : [ "TEXT", "FILE" ]
               },
               "sensitive" : false
             },
@@ -51420,7 +51420,7 @@
               "name" : "Header File",
               "resourceDefinition" : {
                 "cardinality" : "SINGLE",
-                "resourceTypes" : [ "FILE", "TEXT" ]
+                "resourceTypes" : [ "TEXT", "FILE" ]
               },
               "sensitive" : false
             },
@@ -52846,18 +52846,18 @@
         }, {
           "componentType" : "FUNNEL",
           "groupIdentifier" : "c80a3ce6-3a98-3a7b-8d39-3304f5675fa9",
-          "identifier" : "38321b6e-d2b1-341c-9445-9544e9c248da",
-          "position" : {
-            "x" : 712.0,
-            "y" : -2760.0
-          }
-        }, {
-          "componentType" : "FUNNEL",
-          "groupIdentifier" : "c80a3ce6-3a98-3a7b-8d39-3304f5675fa9",
           "identifier" : "5cc78d55-3f79-30fd-b2fa-c5c40a78f147",
           "position" : {
             "x" : 712.0,
             "y" : -4104.0
+          }
+        }, {
+          "componentType" : "FUNNEL",
+          "groupIdentifier" : "c80a3ce6-3a98-3a7b-8d39-3304f5675fa9",
+          "identifier" : "38321b6e-d2b1-341c-9445-9544e9c248da",
+          "position" : {
+            "x" : 712.0,
+            "y" : -2760.0
           }
         }, {
           "componentType" : "FUNNEL",
@@ -52926,12 +52926,12 @@
           "componentType" : "OUTPUT_PORT",
           "concurrentlySchedulableTaskCount" : 1,
           "groupIdentifier" : "c80a3ce6-3a98-3a7b-8d39-3304f5675fa9",
-          "identifier" : "19804533-8f2b-340d-b760-cd713779f2f1",
-          "name" : "output",
+          "identifier" : "22a07b7e-3464-3ccf-be9b-4e002625662c",
+          "name" : "failure",
           "portFunction" : "STANDARD",
           "position" : {
-            "x" : 5968.0,
-            "y" : -2184.0
+            "x" : 616.0,
+            "y" : -4288.0
           },
           "scheduledState" : "ENABLED",
           "type" : "OUTPUT_PORT"
@@ -52940,12 +52940,12 @@
           "componentType" : "OUTPUT_PORT",
           "concurrentlySchedulableTaskCount" : 1,
           "groupIdentifier" : "c80a3ce6-3a98-3a7b-8d39-3304f5675fa9",
-          "identifier" : "22a07b7e-3464-3ccf-be9b-4e002625662c",
-          "name" : "failure",
+          "identifier" : "19804533-8f2b-340d-b760-cd713779f2f1",
+          "name" : "output",
           "portFunction" : "STANDARD",
           "position" : {
-            "x" : 616.0,
-            "y" : -4288.0
+            "x" : 5968.0,
+            "y" : -2184.0
           },
           "scheduledState" : "ENABLED",
           "type" : "OUTPUT_PORT"
@@ -53731,7 +53731,7 @@
               "name" : "Footer File",
               "resourceDefinition" : {
                 "cardinality" : "SINGLE",
-                "resourceTypes" : [ "FILE", "TEXT" ]
+                "resourceTypes" : [ "TEXT", "FILE" ]
               },
               "sensitive" : false
             },
@@ -53749,7 +53749,7 @@
               "name" : "Demarcator File",
               "resourceDefinition" : {
                 "cardinality" : "SINGLE",
-                "resourceTypes" : [ "FILE", "TEXT" ]
+                "resourceTypes" : [ "TEXT", "FILE" ]
               },
               "sensitive" : false
             },
@@ -53774,7 +53774,7 @@
               "name" : "Header File",
               "resourceDefinition" : {
                 "cardinality" : "SINGLE",
-                "resourceTypes" : [ "FILE", "TEXT" ]
+                "resourceTypes" : [ "TEXT", "FILE" ]
               },
               "sensitive" : false
             },
@@ -55183,18 +55183,18 @@
         }, {
           "componentType" : "FUNNEL",
           "groupIdentifier" : "ffac0ac2-ad05-372e-9a2b-7513adea4e48",
-          "identifier" : "c87fcfad-0195-1000-5542-622aa527053d",
-          "position" : {
-            "x" : 471.5192430501738,
-            "y" : -3279.435891699597
-          }
-        }, {
-          "componentType" : "FUNNEL",
-          "groupIdentifier" : "ffac0ac2-ad05-372e-9a2b-7513adea4e48",
           "identifier" : "9341d0a3-53d4-3ed1-a906-5c954a2b62da",
           "position" : {
             "x" : 2632.0,
             "y" : -3160.0
+          }
+        }, {
+          "componentType" : "FUNNEL",
+          "groupIdentifier" : "ffac0ac2-ad05-372e-9a2b-7513adea4e48",
+          "identifier" : "c87fcfad-0195-1000-5542-622aa527053d",
+          "position" : {
+            "x" : 471.5192430501738,
+            "y" : -3279.435891699597
           }
         }, {
           "componentType" : "FUNNEL",
@@ -55812,7 +55812,7 @@
               "name" : "Footer File",
               "resourceDefinition" : {
                 "cardinality" : "SINGLE",
-                "resourceTypes" : [ "FILE", "TEXT" ]
+                "resourceTypes" : [ "TEXT", "FILE" ]
               },
               "sensitive" : false
             },
@@ -55830,7 +55830,7 @@
               "name" : "Demarcator File",
               "resourceDefinition" : {
                 "cardinality" : "SINGLE",
-                "resourceTypes" : [ "FILE", "TEXT" ]
+                "resourceTypes" : [ "TEXT", "FILE" ]
               },
               "sensitive" : false
             },
@@ -55855,7 +55855,7 @@
               "name" : "Header File",
               "resourceDefinition" : {
                 "cardinality" : "SINGLE",
-                "resourceTypes" : [ "FILE", "TEXT" ]
+                "resourceTypes" : [ "TEXT", "FILE" ]
               },
               "sensitive" : false
             },
@@ -57161,18 +57161,18 @@
         }, {
           "componentType" : "FUNNEL",
           "groupIdentifier" : "2eae175d-77c2-30bc-9562-287f72739252",
-          "identifier" : "c8769184-0195-1000-19df-65bd14743b38",
-          "position" : {
-            "x" : 472.49864867715996,
-            "y" : -3464.4913940254037
-          }
-        }, {
-          "componentType" : "FUNNEL",
-          "groupIdentifier" : "2eae175d-77c2-30bc-9562-287f72739252",
           "identifier" : "c876918e-0195-1000-6dbe-2b2cc63630b3",
           "position" : {
             "x" : 472.49864867715996,
             "y" : -3304.4913940254037
+          }
+        }, {
+          "componentType" : "FUNNEL",
+          "groupIdentifier" : "2eae175d-77c2-30bc-9562-287f72739252",
+          "identifier" : "c8769184-0195-1000-19df-65bd14743b38",
+          "position" : {
+            "x" : 472.49864867715996,
+            "y" : -3464.4913940254037
           }
         }, {
           "componentType" : "FUNNEL",
@@ -57532,7 +57532,7 @@
               "name" : "Footer File",
               "resourceDefinition" : {
                 "cardinality" : "SINGLE",
-                "resourceTypes" : [ "FILE", "TEXT" ]
+                "resourceTypes" : [ "TEXT", "FILE" ]
               },
               "sensitive" : false
             },
@@ -57550,7 +57550,7 @@
               "name" : "Demarcator File",
               "resourceDefinition" : {
                 "cardinality" : "SINGLE",
-                "resourceTypes" : [ "FILE", "TEXT" ]
+                "resourceTypes" : [ "TEXT", "FILE" ]
               },
               "sensitive" : false
             },
@@ -57575,7 +57575,7 @@
               "name" : "Header File",
               "resourceDefinition" : {
                 "cardinality" : "SINGLE",
-                "resourceTypes" : [ "FILE", "TEXT" ]
+                "resourceTypes" : [ "TEXT", "FILE" ]
               },
               "sensitive" : false
             },
@@ -59881,7 +59881,7 @@
               "name" : "Footer File",
               "resourceDefinition" : {
                 "cardinality" : "SINGLE",
-                "resourceTypes" : [ "FILE", "TEXT" ]
+                "resourceTypes" : [ "TEXT", "FILE" ]
               },
               "sensitive" : false
             },
@@ -59899,7 +59899,7 @@
               "name" : "Demarcator File",
               "resourceDefinition" : {
                 "cardinality" : "SINGLE",
-                "resourceTypes" : [ "FILE", "TEXT" ]
+                "resourceTypes" : [ "TEXT", "FILE" ]
               },
               "sensitive" : false
             },
@@ -59924,7 +59924,7 @@
               "name" : "Header File",
               "resourceDefinition" : {
                 "cardinality" : "SINGLE",
-                "resourceTypes" : [ "FILE", "TEXT" ]
+                "resourceTypes" : [ "TEXT", "FILE" ]
               },
               "sensitive" : false
             },
@@ -62039,16 +62039,16 @@
       "name" : "Document Extractor / Extract Text 0",
       "parameters" : [ {
         "description" : "",
-        "name" : "batch_size",
-        "provided" : false,
-        "sensitive" : false,
-        "value" : "6"
-      }, {
-        "description" : "",
         "name" : "app_alias",
         "provided" : false,
         "sensitive" : false,
         "value" : "document-extractor"
+      }, {
+        "description" : "",
+        "name" : "batch_size",
+        "provided" : false,
+        "sensitive" : false,
+        "value" : "6"
       }, {
         "description" : "",
         "name" : "processor_suffix",
